@@ -1,18 +1,19 @@
-# chuabohao.com — Personal Site
+# Personal Site — Chua Bo Hao
 
-The personal site of **Chua Bo Hao** — Singapore-based builder, operator and
-strategist. Operations-trained (facilities management), self-taught in
-software, shipping AI-powered finance and productivity tools.
+The personal site of **Chua Bo Hao** — a Singapore-based maker who vibecodes
+tools he wishes existed: apps for calmer investing, deeper focus and everyday
+discipline, built with AI as a pair programmer and polished by hand.
 
 ## Stack
 
 - Hand-written **HTML / CSS / vanilla JS** — no framework, no build step.
 - Fonts: [Fraunces](https://fonts.google.com/specimen/Fraunces) (display serif)
   + [Inter](https://fonts.google.com/specimen/Inter) (body), via Google Fonts.
-- Aesthetic: *executive cyber-classicist* — deep slate, tactical gold,
-  editorial typography. Consistent with the rest of the venture fleet.
+- Aesthetic: deep slate + tactical gold, matching the rest of the project
+  fleet (Grand Horizon, ULTRACODE).
 - Accessible and responsive: semantic landmarks, `prefers-reduced-motion`
-  support, mobile navigation, JSON-LD `Person` schema for SEO.
+  support, no-JS fallback for scroll reveals, mobile navigation, JSON-LD
+  `Person` schema for SEO.
 
 ## Run locally
 
@@ -34,7 +35,7 @@ Or just open `index.html` in a browser.
 ## Structure
 
 ```
-index.html   — single-page site (hero, about, ventures, experience, credentials, contact)
+index.html   — single-page site (hero, about, projects, experience, background, contact)
 styles.css   — design system + layout
 script.js    — nav state, mobile menu, scroll reveals, section spy
 ```
